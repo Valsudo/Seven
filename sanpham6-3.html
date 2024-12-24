@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="vi" prefix="og: https://ogp.me/ns#" class="loading-site no-js">
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven</title>
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="sanpham1.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="top-bar">
+                <span>VĂN PHÒNG PHẨM SEVEN</span>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/hocviennganhang1961/?locale=vi_VN"><img src="facebook-icon.png" alt="facebook" width="20" height="20"></a>
+                    <a href="#"><img src="instagram-icon.png" alt="Instagram" width="20" height="20"></a>
+                    <a href="#"><img src="email-icon.png" alt="Email" width="20" height="20"></a>
+                    <a href="#"><img src="phone-icon.png" alt="Phone" width="20" height="20"></a>
+                </div>
+            </div>
+            <div class="main-header">
+                <div class="logo">
+                    SEVEN
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Tìm kiếm" />
+                    <button>🔍</button>
+                </div>
+                <div class="cart">
+                    <a href="#">Giỏ hàng 🛒</a>
+                </div>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li>
+                    <div class="dropdown">
+                        <button class="dropbtn"><span class="menu-icon">&#9776;</span> 
+                            DANH MỤC SẢN PHẨM
+                            <span class="arrow-icon">▾</span>
+                        </button>
+                        <ul><div class="dropdown-content">
+                            <li><a href="but-cac-loai.html">Bút các loại</a></li>
+                            <li><a href="bia.html">Bìa các loại</a></li>
+                            <li><a href="so-tap-cac-loai.html">Sổ - Tập các loại</a></li>
+                            <li><a href="vanphongpham.html">Dụng cụ văn phòng</a></li>
+                            <li><a href="thiet-bi-van-phong.html">Thiết bị văn phòng</a></li>
+                            <li><a href="bang-viet-cac-loai.html">Bảng viết các loại</a></li>
+                            <li><a href="dung-cu-hoc-tap.html">Dụng cụ học tập</a></li>
+                            <li><a href="giay.html">Giấy các loại</a></li>
+                            <li><a href="maytinh.html">Máy tính</a></li>
+                        </ul>
+                    </div>
+                    </li>
+                    <li><a href="moi.html">TRANG CHỦ</a></li>
+                    <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                    <li><a href="lienhe.html">LIÊN HỆ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container product-container">
+                <div class="product-wrapper">
+                    <div class="row">
+                        <!-- Image Section -->
+                        <div class="col-md-6">
+                            <img src="https://vppdeli.vn/wp-content/uploads/2024/03/ik-plus-a4-80gsm-768x768.png" alt="Product Image" class="product-image">
+                        </div>
+        
+                        <!-- Product Details Section -->
+                        <div class="col-md-6">
+                            <h1 class="product-title">Giấy A4 IK PLUS 80GSM Indonesia</h1>
+                            <p class="product-price">82.500 ₫</p>
+        
+                            <ul class="product-details list-unstyled">
+                                <li>- SẢN PHẨM CAM KẾT CHÍNH HÃNG</li>
+                                <li>- HÓA ĐƠN, CHỨNG TỪ ĐẦY ĐỦ</li>
+                                <li>- MUA GIÁ SỈ: 0XXX.XXX.XXX</li>
+                            </ul>
+        
+                            <div class="d-flex align-items-center mt-3">
+                                <!-- Quantity Input -->
+                                <input type="number" class="form-control me-2" id="quantity" value="1" min="1" style="width: 80px;">
+                                <!-- Add to Cart Button -->
+                                <button class="btn btn-add-to-cart" onclick="addToCart()">THÊM VÀO GIỎ HÀNG</button>
+                            </div>
+        
+                            <div class="product-meta">
+                                <p>Mã: <strong>GIK48</strong></p>
+                                <p>Danh mục: <a href="#" class="text-primary text-decoration-none">GIẤY CÁC LOẠI</a></p>
+                                <p>Từ khóa: <a href="#" class="text-primary text-decoration-none">Giấy A4 IK PLUS 80GSM Indonesia</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <!--Nội dung và đánh giá-->
+            <div class="container">       
+                <div class="tabs-container">
+                    <!-- Tabs navigation -->
+                    <ul class="nav nav-tabs">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="description-tab" href="#description" onclick="showTab('description')">Mô tả</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="review-tab" href="#review" onclick="showTab('review')">Đánh giá</a>
+                        </li>
+                    </ul>
+        
+                    <!-- Tabs content -->
+                    <div id="description-content" class="mt-4">
+                        <h5>Sản phẩm: Giấy A4 IK PLUS 80GSM Indonesia</h5>
+                        <ul>
+                            <li><strong>Mô tả sản phẩm:</strong><br>Giấy A4 IK Plus 80gsm được sản xuất tại Indonesia, nổi bật với chất lượng cao cấp. Đây là loại giấy đa năng, phù hợp cho các hoạt động in ấn trong văn phòng, trường học và cả gia đình. Với định lượng 80gsm, giấy có độ dày lý tưởng, đảm bảo độ bền và khả năng tương thích với hầu hết các loại máy in và máy photocopy.</li>
+                            <li><strong>Tính năng nổi bật:</strong>
+                               <ul> <li>Chất lượng vượt trội: Độ dày 70gsm, bề mặt láng mịn, không lem mực.</li>
+                                <li>Độ trắng cao: Giúp bản in sắc nét, màu sắc trung thực và rõ ràng.</li>
+                                <li>Bề mặt láng mịn: Hỗ trợ in ấn mượt mà, hạn chế lem mực và đảm bảo độ bám mực tốt.</li>
+                                <li>Thân thiện môi trường: Sản xuất từ nguyên liệu tái chế chất lượng cao.</li>
+                                <li>Bền bỉ, không nhăn: Giúp bảo quản tài liệu lâu dài.</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <div id="review-content" class="mt-4" style="display: none;">
+                        <h5>Đánh giá</h5>
+                        <form id="review-form">
+                            <div class="mb-3">
+                                <label for="name" class="form-label">Tên của bạn</label>
+                                <input type="text" class="form-control" id="name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email của bạn</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="comment" class="form-label">Nhận xét</label>
+                                <textarea class="form-control" id="comment" rows="4" required></textarea>
+                            </div>
+                            <button type="button" class="btn btn-primary" onclick="submitReview()">Gửi đánh giá</button>
+                        </form>
+        
+                        <div class="review-section mt-4">
+                            <h6>Đánh giá từ khách hàng:</h6>
+                            <div id="reviews-list">
+                                <p>Chưa có đánh giá nào.</p>
+                            </div>
+                        </div>
+                    </div>
+ <!--san pham lien quan-->
+                    <div class="related-products-box">
+                        <h4 class="box-title">SẢN PHẨM TƯƠNG TỰ</h4>
+                        <div class="product-list">
+                            <!-- Sản phẩm 1 -->
+                            <a href="sanpham6-9.html" class="product-item">
+                                <img src="https://vppdeli.vn/wp-content/uploads/2024/03/paper-one-a380-768x768.png" alt="Giấy A3 PAPER ONE 80GSM Indonesia">
+                                <h6>Giấy A3 PAPER ONE 80GSM Indonesia</h6>
+                                <p>166.000 ₫</p>
+                            </a>
+                            <!-- Sản phẩm 2 -->
+                            <a href="sanpham6-5.html" class="product-item">
+                                <img src="https://vppdeli.vn/wp-content/uploads/2024/03/ik-natural-768x768.png" alt="Giấy A4 IK NATURAL 70GSM Thái Lan">
+                                <h6>Giấy A4 IK NATURAL 70GSM Thái Lan</h6>
+                                <p>44.000 ₫</p>
+                            </a>
+                            <!-- Sản phẩm 3 -->
+                            <a href="sanpham6-6.html" class="product-item">
+                                <img src="https://vppdeli.vn/wp-content/uploads/2024/03/excel-768x768.png" alt="Giấy A4 EXCEL 70GSM Indonesia">
+                                <h6>Giấy A4 EXCEL 70GSM Indonesia</h6>
+                                <p>51.000 ₫</p>
+                            </a>
+                            <!-- Sản phẩm 4 -->
+                            <a href="sanpham6-7.html" class="product-item">
+                                <img src="https://vppdeli.vn/wp-content/uploads/2024/03/double-a-80gsm-768x768.png" alt="Giấy A4 DOUBLE A 80GSM Thái Lan">
+                                <h6>Giấy A4 DOUBLE A 80GSM Thái Lan</h6>
+                                <p>87.500 ₫</p>
+                            </a>
+                        </div>                        
+                    </div>
+        </main>
+        <footer>
+            <div class="footer-container">
+                <!-- Company Information -->
+                <div class="footer-column">
+                    <h3>Company Info</h3>
+                    <ul class="contact-info">
+                        <li>Company: Công ty TNHH SEVEN</li>
+                        <li>Address: 29 DD11, P. Tân Hưng Thuận, Q. 12, TP.HCM</li>
+                        <li>Hotline: 0XXX.2XYX.698</li>
+                        <li>Sale: 0XXX.3XX.1XX</li>
+                        <li>Email: murasakiaoi2501@gmail.com</li>
+                        <li>Tax ID: 0XXXXXXX</li>
+                        <li>Issued: 11/08/2024</li>
+                    </ul>
+                </div>
+    
+                <!-- Product Categories -->
+                <div class="footer-column">
+                    <h3>Product Categories</h3>
+                    <ul>
+                        <li><a href="but-cac-loai.html">Bút các loại</a></li>
+                        <li><a href="bia.html">Bìa các loại</a></li>
+                        <li><a href="vanphongpham.html">Dụng cụ văn phòng</a></li>
+                        <li><a href="giay.html">Giấy các loại</a></li>
+                        <li><a href="maytinh.html">Máy tính</a></li>
+                        <li><a href="thiet-bi-van-phong.html">Thiết bị văn phòng</a></li>
+                        <li><a href="bang-viet-cac-loai.html">Bảng viết các loại</a></li>
+                        <li><a href="dung-cu-hoc-tap.html">Dụng cụ học tập</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Policies -->
+                <div class="footer-column">
+                    <h3>Policies</h3>
+                    <ul>
+                        <li><a href="chinhsachhoanhang.html">Chính sách kiểm hàng và đổi trả</a></li>
+                        <li><a href="Quidinhchung.html">Quy định chung</a></li>
+                    </ul>
+                </div>
+    
+                <!-- Map and Certificate -->
+                <div class="footer-column">
+                    <h3>Location</h3>
+                    <div class="map">
+                        <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14898.391334003942!2d105.8285905!3d21.0087522!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x419a49bcd94b693a!2zSOG7jWMgdmnhu4duIE5nw6JuIGjDoG5n!5e0!3m2!1svi!2s!4v1594362816156!5m2!1svi!2s"
+                        width="100%"
+                        height="150"
+                        style="border:0;"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+                    </div>
+                    <img src="http://online.gov.vn/PublicImages/2015/08/27/11/20150827110756-dathongbao.png" alt="Bộ Công Thương Badge" class="my-img">
+                </div>
+            </div>
+    
+            <div class="footer-bottom">
+                Copyright 2024 © SEVEN. All rights reserved.
+            </div>
+        </footer>
+        <script>
+         // Hàm chuyển đổi tab
+         function showTab(tab) {
+            document.getElementById('description-content').style.display = (tab === 'description') ? 'block' : 'none';
+            document.getElementById('review-content').style.display = (tab === 'review') ? 'block' : 'none';
+            document.getElementById('description-tab').classList.toggle('active', tab === 'description');
+            document.getElementById('review-tab').classList.toggle('active', tab === 'review');
+        }
+
+        // Hàm xử lý gửi đánh giá
+        function submitReview() {
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const comment = document.getElementById('comment').value.trim();
+
+            if (!name || !email || !comment) {
+                alert('Vui lòng điền đầy đủ thông tin!');
+                return;
+            }
+
+            const reviewList = document.getElementById('reviews-list');
+            const newReview = document.createElement('div');
+            newReview.classList.add('review-item');
+            newReview.innerHTML = `<p><strong>${name}</strong> (${email})</p><p>${comment}</p>`;
+
+            // Thêm đánh giá mới
+            if (reviewList.innerHTML.includes('Chưa có đánh giá nào.')) {
+                reviewList.innerHTML = '';
+            }
+            reviewList.appendChild(newReview);
+
+            // Reset form
+            document.getElementById('review-form').reset();
+        }
+            // Function to ensure the quantity is at least 1
+            function addToCart() {
+               const quantityInput = document.getElementById('quantity');
+               const quantity = parseInt(quantityInput.value);
+   
+               if (quantity < 1) {
+                   alert('Số lượng tối thiểu phải là 1!');
+                   quantityInput.value = 1; // Reset to 1 if input is invalid
+               } else {
+                   alert(`Đã thêm ${quantity} sản phẩm vào giỏ hàng!`);
+               }
+           }
+       </script>
+            <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="vi" prefix="og: https://ogp.me/ns#" class="loading-site no-js">
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seven</title>
+    <link rel="stylesheet" type="text/css" rel="noopener" target="_blank" href="lienhe.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    </head>
+    <body>
+        <header class="header">
+            <div class="top-bar">
+                <span>VĂN PHÒNG PHẨM SEVEN</span>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/hocviennganhang1961/?locale=vi_VN"><img src="facebook-icon.png" alt="facebook" width="20" height="20"></a>
+                    <a href="#"><img src="instagram-icon.png" alt="Instagram" width="20" height="20"></a>
+                    <a href="#"><img src="email-icon.png" alt="Email" width="20" height="20"></a>
+                    <a href="#"><img src="phone-icon.png" alt="Phone" width="20" height="20"></a>
+                </div>
+            </div>
+            <div class="main-header">
+                <div class="logo">
+                    SEVEN
+                </div>
+                <div class="search-bar">
+                    <input type="text" placeholder="Tìm kiếm" />
+                    <button>🔍</button>
+                </div>
+                <div class="cart">
+                    <a href="#">Giỏ hàng 🛒</a>
+                </div>
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li>
+                    <div class="dropdown">
+                        <button class="dropbtn"><span class="menu-icon">&#9776;</span> 
+                            DANH MỤC SẢN PHẨM
+                            <span class="arrow-icon">▾</span>
+                        </button>
+                        <ul><div class="dropdown-content">
+                            <li><a href="but-cac-loai.html">Bút các loại</a></li>
+                            <li><a href="bia.html">Bìa các loại</a></li>
+                            <li><a href="so-tap-cac-loai.html">Sổ - Tập các loại</a></li>
+                            <li><a href="vanphongpham.html">Dụng cụ văn phòng</a></li>
+                            <li><a href="thiet-bi-van-phong.html">Thiết bị văn phòng</a></li>
+                            <li><a href="bang-viet-cac-loai.html">Bảng viết các loại</a></li>
+                            <li><a href="dung-cu-hoc-tap.html">Dụng cụ học tập</a></li>
+                            <li><a href="giay.html">Giấy các loại</a></li>
+                            <li><a href="maytinh.html">Máy tính</a></li>
+                        </ul>
+                    </div>
+                    </li>
+                    <li><a href="moi.html">TRANG CHỦ</a></li>
+                    <li><a href="gioithieu.html">GIỚI THIỆU</a></li>
+                    <li><a href="lienhe.html">LIÊN HỆ</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div class="container">
+                <div class="form-container">
+                    <h3 class="mb-4">Phiếu Điền Thông Tin</h3>
+                    <form id="info-form">
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">Họ và tên</label>
+                            <input type="text" class="form-control" id="fullName" placeholder="Nhập họ và tên" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Nhập email của bạn" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Tin nhắn</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Nhập tin nhắn của bạn" required></textarea>
+                        </div>
+                        <button type="button" class="btn btn-primary" onclick="submitForm()">Gửi thông tin</button>
+                    </form>
+                    <!-- Thông báo -->
+                    <div id="alert-box" class="alert alert-success d-none" role="alert">
+                        Cảm ơn bạn! Chúng tôi đã nhận được thông tin của bạn.
+                    </div>
+                </div>
+            </div>
+        
+               
+        </main>
+    <footer>
+        <div class="footer-container">
+            <!-- Company Information -->
+            <div class="footer-column">
+                <h3>Company Info</h3>
+                <ul class="contact-info">
+                    <li>Company: Công ty TNHH SEVEN</li>
+                    <li>Address: 12 Chùa Bộc, phường Quang Trung, Đống Đa, Hà Nội , Việt Nam</li>
+                    <li>Hotline: 0XXX.2XYX.698</li>
+                    <li>Sale: 0XXX.3XX.1XX</li>
+                    <li>Email: murasakiaoi2501@gmail.com</li>
+                    <li>Tax ID: 0XXXXXXX</li>
+                    <li>Issued: 11/08/2024</li>
+                </ul>
+            </div>
+
+            <!-- Product Categories -->
+            <div class="footer-column">
+                <h3>Product Categories</h3>
+                <ul>
+                    <li><a href="but-cac-loai.html">Bút các loại</a></li>
+                    <li><a href="bia.html">Bìa các loại</a></li>
+                    <li><a href="vanphongpham.html">Dụng cụ văn phòng</a></li>
+                    <li><a href="giay.html">Giấy các loại</a></li>
+                    <li><a href="maytinh.html">Máy tính</a></li>
+                    <li><a href="thiet-bi-van-phong.html">Thiết bị văn phòng</a></li>
+                    <li><a href="bang-viet-cac-loai.html">Bảng viết các loại</a></li>
+                    <li><a href="dung-cu-hoc-tap.html">Dụng cụ học tập</a></li>
+                </ul>
+            </div>
+
+            <!-- Policies -->
+            <div class="footer-column">
+                <h3>Policies</h3>
+                <ul>
+                    <li><a href="chinhsachhoanhang.html">Chính sách kiểm hàng và đổi trả</a></li>
+                    <li><a href="Quidinhchung.html">Quy định chung</a></li>
+                </ul>
+            </div>
+
+            <!-- Map and Certificate -->
+            <div class="footer-column">
+                <h3>Location</h3>
+                <div class="map">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14898.391334003942!2d105.8285905!3d21.0087522!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x419a49bcd94b693a!2zSOG7jWMgdmnhu4duIE5nw6JuIGjDoG5n!5e0!3m2!1svi!2s!4v1594362816156!5m2!1svi!2s"
+                    width="100%"
+                    height="150"
+                    style="border:0;"
+                    allowfullscreen=""
+                    loading="lazy">
+                </iframe>
+                </div>
+                <img src="http://online.gov.vn/PublicImages/2015/08/27/11/20150827110756-dathongbao.png" alt="Bộ Công Thương Badge" class="my-img">
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            Copyright 2024 © SEVEN. All rights reserved.
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+     <script> // Hàm xử lý gửi form
+        function submitForm() {
+            const fullName = document.getElementById('fullName').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            if (!fullName || !email || !message) {
+                alert('Vui lòng điền đầy đủ thông tin!');
+                return;
+            }
+
+            // Hiển thị thông báo
+            const alertBox = document.getElementById('alert-box');
+            alertBox.classList.remove('d-none');
+
+            // Reset form
+            document.getElementById('info-form').reset();
+        }</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    </body>
+    </html>
